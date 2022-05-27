@@ -45,7 +45,7 @@ public class DataNuoc extends SQLiteOpenHelper {
                 Nuoc nuoc = new Nuoc();
                 nuoc.setId(cursor.getInt(0));
                 nuoc.setTen(cursor.getString(1));
-                nuoc.setGia((int) cursor.getDouble(2));
+                nuoc.setGia(cursor.getString(2));
                 nuocList.add(nuoc);
             }while (cursor.moveToNext());
         }

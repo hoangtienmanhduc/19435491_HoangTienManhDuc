@@ -3,18 +3,18 @@ package com.example.a13_19435491_hoangtienmanhduc;
 public class Nuoc {
     private int id;
     private String ten;
-    private int gia;
+    private String gia;
 
     public Nuoc() {
     }
 
-    public Nuoc(int id, String ten, int gia) {
+    public Nuoc(int id, String ten, String gia) {
         this.id = id;
         this.ten = ten;
         this.gia = gia;
     }
 
-    public Nuoc(String ten, int gia) {
+    public Nuoc(String ten, String gia) {
         this.ten = ten;
         this.gia = gia;
     }
@@ -35,11 +35,11 @@ public class Nuoc {
         this.ten = ten;
     }
 
-    public int getGia() {
+    public String getGia() {
         return gia;
     }
 
-    public void setGia(int gia) {
+    public void setGia(String gia) {
         this.gia = gia;
     }
 }
