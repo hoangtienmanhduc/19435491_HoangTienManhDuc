@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669002554341",
+    "project_id": "hoangtienmanhduc-f6514",
+    "storage_bucket": "hoangtienmanhduc-f6514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669002554341:android:41dfba81434646e4b0ed0c",
+        "android_client_info": {
+          "package_name": "com.example.a13_19435491_hoangtienmanhduc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669002554341-oqgai5flv9v9bpoptd8fjh4h5assbnn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxY7WAjAlkKb3o5biZGIXpx3u1cJQv8TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669002554341-oqgai5flv9v9bpoptd8fjh4h5assbnn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
