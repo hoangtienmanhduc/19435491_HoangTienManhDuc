@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.13_19435491_HoangTienManhDuc">
         <activity
+            android:name=".SanPham"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

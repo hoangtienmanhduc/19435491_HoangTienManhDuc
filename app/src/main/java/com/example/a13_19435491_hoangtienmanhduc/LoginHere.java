@@ -54,7 +54,7 @@ public class LoginHere extends AppCompatActivity {
                 public void onComplete(@NonNull Task<AuthResult> task) {
                     if(task.isSuccessful()){
                         Toast.makeText(LoginHere.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(LoginHere.this,MainActivity.class));
+                        startActivity(new Intent(LoginHere.this,SanPham.class));
                     }
                     else {
                         Toast.makeText(LoginHere.this, "Đăng nhập lỗi" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
